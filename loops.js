@@ -12,3 +12,9 @@ function whileLoop(n) {
   }
   return 'done'
 }
+
+function doWhileLoop(array) {
+  do {
+    array.pop()
+  } while array.length > 0
+}
