@@ -12,8 +12,12 @@ function whileLoop(n) {
   return 'done'
 }
 
+function incrementVariable() {
+  i = i + 1
+}
+
 function doWhileLoop(array) {
   do {
     array.pop()
-  } while (array.length > 0)
+  } while (array.length > 0 && incrementVariable())
 }
